@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamlBasicsLab"
+             x:Class="XamlBasicsLab.MainPage">
+    <Grid RowDefinitions="*,*"
+          ColumnDefinitions="*,*">
+
+        <Button
+                Text="Hello"
+                HorizontalOptions="Center"
+                FontAttributes="Italic"
+                Clicked="Button_Clicked"/>
+        
+        <Label x:Name="lblOutput" Text="Output"  Margin="100,50,0,0" Grid.Row="1" Grid.Column="1">
+            <Label.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="{x:Static local:MyColors.Primary}" Offset="0"/>
+                        <GradientStop Color="{x:Static local:MyColors.Primary}" Offset="0.5"/>
+                        <GradientStop Color="{x:Static local:MyColors.Secondary}" Offset="1"/>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+    </Grid>
+</ContentPage>
