@@ -54,7 +54,6 @@
                Grid.Column="1"
                Grid.Row="0"
                FontSize="Large"
-               VerticalOptions="End"
                HorizontalOptions="Center"/>
        
             <Slider Maximum="100" 

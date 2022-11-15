@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlBasicsLab", "XamlBasicsLab\XamlBasicsLab.csproj", "{D4B47F55-48D7-435A-BF2D-F54808586201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutLab", "LayoutLab\LayoutLab.csproj", "{580DCE7C-76B9-43EC-B713-A554F15D06B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayoutLab", "LayoutLab\LayoutLab.csproj", "{580DCE7C-76B9-43EC-B713-A554F15D06B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlLab", "CustomControlLab\CustomControlLab.csproj", "{BF7D51D3-8C28-4E09-B554-CB88723E319F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,12 @@ Global
 		{580DCE7C-76B9-43EC-B713-A554F15D06B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580DCE7C-76B9-43EC-B713-A554F15D06B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{580DCE7C-76B9-43EC-B713-A554F15D06B5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BF7D51D3-8C28-4E09-B554-CB88723E319F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7D51D3-8C28-4E09-B554-CB88723E319F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7D51D3-8C28-4E09-B554-CB88723E319F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BF7D51D3-8C28-4E09-B554-CB88723E319F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7D51D3-8C28-4E09-B554-CB88723E319F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7D51D3-8C28-4E09-B554-CB88723E319F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
