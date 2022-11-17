@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LabClipboardWithEssentials.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <HorizontalStackLayout Padding="10, 0,0,10">
+                <Entry 
+                       x:Name="inputEntry"
+                       Placeholder="Insert text to copy"
+                       WidthRequest="250"/>
+                <Button Text="Copy" Clicked="Button_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Padding="10, 0,0,10">
+                <Label Text="{Binding ClipText}"
+                       x:Name="lblPaste"
+                       WidthRequest="250"/>
+                <Button Text="Paste" Clicked="Button_Clicked_1"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
