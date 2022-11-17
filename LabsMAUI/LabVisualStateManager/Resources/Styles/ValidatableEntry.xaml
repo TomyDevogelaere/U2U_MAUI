@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LabVisualStateManager.Resources.Styles.ValidatableEntry"
+                    xmlns:local="clr-namespace:LabVisualStateManager">
+    <Style TargetType="local:ValidatableEntry">
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <Setter.Value>
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="ValidationStates">
+                        <VisualState x:Name="Valid">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="LightGreen"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="InValid">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="LightPink"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

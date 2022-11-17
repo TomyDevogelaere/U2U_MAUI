@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LabVisualStateManager.MainPage"
+             xmlns:local="clr-namespace:LabVisualStateManager">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <local:ValidatableEntry Placeholder="Your e-mail here" Keyboard="Email">
+                <local:ValidatableEntry.ValidationRule>
+                    <local:EmailValidationRule ValidationMessage="Bad format"/>
+                </local:ValidatableEntry.ValidationRule>
+            </local:ValidatableEntry>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

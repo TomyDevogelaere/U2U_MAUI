@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabMVVM", "LabMVVM\LabMVVM.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stravomondo", "Stravomondo\Stravomondo.csproj", "{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabVisualStateManager", "LabVisualStateManager\LabVisualStateManager.csproj", "{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,12 @@ Global
 		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D613E47E-ABC6-4F89-95A5-0074CD5BA33C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
