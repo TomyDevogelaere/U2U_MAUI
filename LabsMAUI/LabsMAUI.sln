@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomControlLab", "CustomC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandwiches", "DatabindingLab\Sandwiches.csproj", "{599C4C54-4FD5-442F-9C56-0EEA5B1F645D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabMVVM", "LabMVVM\LabMVVM.csproj", "{466A9F29-EFE1-4CF3-A99D-0EE031F4A108}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabMVVM", "LabMVVM\LabMVVM.csproj", "{466A9F29-EFE1-4CF3-A99D-0EE031F4A108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stravomondo", "Stravomondo\Stravomondo.csproj", "{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,12 @@ Global
 		{466A9F29-EFE1-4CF3-A99D-0EE031F4A108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{466A9F29-EFE1-4CF3-A99D-0EE031F4A108}.Release|Any CPU.Build.0 = Release|Any CPU
 		{466A9F29-EFE1-4CF3-A99D-0EE031F4A108}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E72AC7-11CA-47B5-B6D7-CF66FE5D47E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

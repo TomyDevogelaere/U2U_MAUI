@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stravomondo.Pages.ActivityDetailsPage"
+             Title="ActivityDetailsPage">
+    <VerticalStackLayout>
+        <Label Text="{Binding Title}" FontSize="Large" />
+        <Label Text="{Binding Distance, StringFormat='{0:F1}km'}"/>
+        <Slider Value="{Binding Effort}"
+                Minimum="0" Maximum="10"
+                MinimumTrackColor="Blue" MaximumTrackColor="Blue"/>
+    </VerticalStackLayout>
+</ContentPage>
